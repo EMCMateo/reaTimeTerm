@@ -1,0 +1,7 @@
+{
+  "name": "realTimeTermometer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

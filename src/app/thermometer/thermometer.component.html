@@ -1,0 +1,8 @@
+<div class="thermometer-container">
+  <div class="thermometer-tube">
+    <div class="thermometer-mercury" [ngStyle]="{'height': temperature + '%', 'background-color': mercuryColor}"></div>
+  </div>
+  <div class="thermometer-scale">
+    <div class="scale-label" *ngFor="let label of scaleLabels">{{ label }}</div>
+  </div>
+</div>
